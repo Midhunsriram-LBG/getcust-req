@@ -1,3 +1,8 @@
+Link: https://cms.lloydsbankuat3.idscloud.io.mcas.ms/CALMS/cms/rest/calmsCMSCustomerWebServiceRest/getCustomerDetails
+
+
+Request:
+
 <cus:getCustomerDetails xmlns:con=http://www.whiteclarkegroup.com/services/Calms2CMS/schema/Contract xmlns:com=http://www.whiteclarkegroup.com/services/Calms2CMS/schema/CommonTypes xmlns:cus=http://www.whiteclarkegroup.com/services/Calms2CMSCustomer/schema/Customer>
     <cus:customerId>
         <cus:customerId>2</cus:customerId>
