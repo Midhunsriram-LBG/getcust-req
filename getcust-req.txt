@@ -1,0 +1,30 @@
+<cus:getCustomerDetails xmlns:con=http://www.whiteclarkegroup.com/services/Calms2CMS/schema/Contract xmlns:com=http://www.whiteclarkegroup.com/services/Calms2CMS/schema/CommonTypes xmlns:cus=http://www.whiteclarkegroup.com/services/Calms2CMSCustomer/schema/Customer>
+    <cus:customerId>
+        <cus:customerId>2</cus:customerId>
+    </cus:customerId>
+    <cus:audit>
+        <cus:messageId>1233333333</cus:messageId>
+        <cus:timestamp>2023-02-23T16:38:18.443Z</cus:timestamp>
+        <cus:clientAppId>11222222</cus:clientAppId>
+        <cus:userId>Lee</cus:userId>
+        <!--Optional:-->
+        <cus:authorisingUserId>AUTH</cus:authorisingUserId>
+        <cus:clientLanguage>en_GB</cus:clientLanguage>
+    </cus:audit>
+    <cus:applicationInfo>
+        <!--Optional:-->
+        <com:tenantInfo>
+            <com:tenantCode>44</com:tenantCode>
+        </com:tenantInfo>
+        <!--Optional:-->
+        <com:securityAudit>
+            <com:messageId>123333333</com:messageId>
+            <com:timestamp>202-02-23T16:38:18.443Z</com:timestamp>
+            <com:clientAppId>123333</com:clientAppId>
+            <com:userId>Lee</com:userId>
+            <!--Optional:-->
+            <com:authorisingUserId>AUTH</com:authorisingUserId>
+            <com:clientLanguage>en_GB</com:clientLanguage>
+        </com:securityAudit>
+    </cus:applicationInfo>
+</cus:getCustomerDetails>
