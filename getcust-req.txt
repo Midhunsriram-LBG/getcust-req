@@ -1,11 +1,10 @@
-Link: https://cms.lloydsbankuat3.idscloud.io.mcas.ms/CALMS/cms/rest/calmsCMSCustomerWebServiceRest/getCustomerDetails
-
+https://cms.lloydsbankuat3.idscloud.io/CALMS/cms/rest/calmsCMSCustomerWebServiceRest/getCustomerDetails
 
 Request:
 
-<cus:getCustomerDetails xmlns:con=http://www.whiteclarkegroup.com/services/Calms2CMS/schema/Contract xmlns:com=http://www.whiteclarkegroup.com/services/Calms2CMS/schema/CommonTypes xmlns:cus=http://www.whiteclarkegroup.com/services/Calms2CMSCustomer/schema/Customer>
+<cus:getCustomerDetails xmlns:con="http://www.whiteclarkegroup.com/services/Calms2CMS/schema/Contract" xmlns:com="http://www.whiteclarkegroup.com/services/Calms2CMS/schema/CommonTypes" xmlns:cus="http://www.whiteclarkegroup.com/services/Calms2CMSCustomer/schema/Customer">
     <cus:customerId>
-        <cus:customerId>2</cus:customerId>
+        <cus:customerId>10</cus:customerId>
     </cus:customerId>
     <cus:audit>
         <cus:messageId>1233333333</cus:messageId>
