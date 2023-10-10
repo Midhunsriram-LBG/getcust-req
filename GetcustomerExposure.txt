@@ -1,0 +1,31 @@
+Link: http://docker-egrimes.domain.whiteclarkegroup.com/CALMS/cms/rest/calmsCMSWebServiceRest/getCustomerExposure
+
+Request:
+
+<cus:getCustomerExposure xmlns:con="http://www.whiteclarkegroup.com/services/Calms2CMS/schema/Contract" xmlns:com="http://www.whiteclarkegroup.com/services/Calms2CMS/schema/CommonTypes" xmlns:cus="http://www.whiteclarkegroup.com/services/Calms2CMS/schema/CustomerExposure">
+<cus:customerExposureInput>
+<!--You have a CHOICE of the next 3 items at this level:-->
+<!--1 or more repetitions:-->
+<!--<cus:bpid>144</cus:bpid>:-->
+<!--1 or more repetitions:-->
+<cus:contractNumber>9000010005</cus:contractNumber>
+<!--1 or more repetitions:-->
+<!--<cus:applicationReference>?</cus:applicationReference>:-->
+</cus:customerExposureInput>
+<cus:applicationInfo>
+<!--Optional:-->
+<com:tenantInfo>
+<com:tenantCode>44</com:tenantCode>
+</com:tenantInfo>
+<!--Optional:-->
+<com:securityAudit>
+<com:messageId>1667915657631</com:messageId>
+<com:timestamp>2022-11-08T13:54:17.632Z</com:timestamp>
+<com:clientAppId>P1000000023</com:clientAppId>
+<com:userId>28055</com:userId>
+<!--Optional:-->
+<!--<com:authorisingUserId>?</com:authorisingUserId>:-->
+<com:clientLanguage>en_GB</com:clientLanguage>
+</com:securityAudit>
+</cus:applicationInfo>
+</cus:getCustomerExposure>
